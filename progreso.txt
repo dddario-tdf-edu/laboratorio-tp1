@@ -1,0 +1,8 @@
+estructura propuesta por la ia para modularizar el contenido
+/mi-blog
+│
+├── index.html        ← Inicio (artículos)
+├── about.html        ← Acerca de mí
+├── contact.html      ← Contacto
+├── styles.css        ← CSS personalizado
+├── favicon.ico
