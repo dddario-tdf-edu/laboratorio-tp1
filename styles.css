@@ -1,0 +1,39 @@
+/* Feedback visual */
+input:valid, textarea:valid {
+    border: 2px solid green;
+}
+
+input:invalid, textarea:invalid {
+    border: 2px solid red;
+}
+
+/* Branding */
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+/* Evita rojo antes de escribir */
+input:placeholder-shown,
+textarea:placeholder-shown {
+    border: 1px solid #ced4da;
+}
+
+/* Campo válido */
+input:valid, textarea:valid {
+    border: 2px solid #198754;
+}
+
+/* Campo inválido */
+input:invalid, textarea:invalid {
+    border: 2px solid #dc3545;
+}
+
+/* Mejora visual al enfocar */
+input:focus:invalid, textarea:focus:invalid {
+    background-color: #fff3f3;
+}
+
+input:focus:valid, textarea:focus:valid {
+    background-color: #f0fff4;
+}
