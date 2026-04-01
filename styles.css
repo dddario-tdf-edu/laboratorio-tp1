@@ -37,3 +37,39 @@ input:focus:invalid, textarea:focus:invalid {
 input:focus:valid, textarea:focus:valid {
     background-color: #f0fff4;
 }
+
+/* ---------------------
+   1. Estado por defecto (desktop)
+   --------------------- */
+body {
+    background-color: #ffffff; /* Fondo blanco */
+    color: #333; /* Texto oscuro */
+    font-family: Arial, sans-serif;
+}
+
+.card, nav, footer {
+    background-color: #f8f9fa; /* Gris claro */
+    color: #333;
+    transition: background-color 0.3s, color 0.3s; /* animación suave */
+}
+
+/* ---------------------
+   2. Estado tablet (pantallas <= 992px)
+   --------------------- */
+@media (max-width: 992px) {
+    .card, nav, footer {
+        background-color: #ff7f50; /* naranja llamativo */
+        color: #ffffff; /* texto blanco para contraste */
+    }
+}
+
+/* ---------------------
+   3. Estado mobile (pantallas <= 576px)
+   --------------------- */
+@media (max-width: 576px) {
+    .card, nav, footer {
+        background-color: #2a5255; /* naranja llamativo */
+        padding: 1rem;
+        font-size: 14px;
+    }
+}
